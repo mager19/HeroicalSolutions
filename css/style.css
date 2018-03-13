@@ -1,0 +1,30 @@
+.contenedor{
+	padding: 5em 0;
+}
+
+/*********** header*************/
+header{
+	background: linear-gradient(230.69deg, #07B2F4 2.61%, #2C75B4 100%) 
+}
+
+
+.trial{
+	background-color: #ccc;
+}
+
+.features{
+	background-color: #aaa;
+}
+
+.view{
+	background-color: #fff
+}
+
+.faqs{
+	background-color: #ccc;
+}
+
+footer{
+	background-color: #333;
+	color:#fff;
+}
