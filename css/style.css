@@ -2,28 +2,35 @@
 	padding: 5em 0;
 }
 
-/*********** header*************/
+/*********** header *************/
 header{
 	background: linear-gradient(230.69deg, #07B2F4 2.61%, #2C75B4 100%) 
 }
 
-
+/*********** Trial *************/
 .trial{
 	background-color: #ccc;
 }
 
+
+/*********** Features *************/
 .features{
 	background-color: #aaa;
 }
 
+
+/*********** View *************/
 .view{
 	background-color: #fff
 }
 
+
+/*********** FAQs *************/
 .faqs{
 	background-color: #ccc;
 }
 
+/*********** Footer *************/
 footer{
 	background-color: #333;
 	color:#fff;
