@@ -272,7 +272,7 @@
                 </div>
             </div>
         </div>
-        <a href="#home" id="myBtn" title="Go to top">&#11165;</a>
+        <a class="js-scroll-trigger" href="#home" id="myBtn" title="Go to top">&#11165;</a>
 
 	    
         
@@ -353,7 +353,7 @@
     <script type="text/javascript">
 $(document).ready(function(){
   // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+  $("a.js-scroll-trigger").on('click', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
