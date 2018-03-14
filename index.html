@@ -13,7 +13,7 @@
     <title>Heroical Solutions</title>
 </head>
 
-<body>
+<body id="home">
     <!-- Header -->
     <header>
         <div class="container">
@@ -62,7 +62,7 @@
     <!-- Free trial -->
     <section class="trial">
         <div class="container">
-            <div class="row">
+            <div class="row wow fadeIn">
                 <div class="col-12">
                     <h3>SIGN UP FOR FREE TRIAL</h3>
                 </div>
@@ -81,11 +81,36 @@
     <!-- Features -->
     <section id="features" class="features">
         <div class="container">
-            <div class="row">
+            <div class="row mb-3">
                 <div class="col-12">
                     <h2>FEATURES</h2>
                 </div>
+                <div class="col-md-4 text-center"><img class="img-fluid feature-img wow flipInY" src="img/feature1.png">
+                	<h4>Feature number 1</h4>
+                	<p>Lorem Ipsum is simply dummy text the printing and typeseing industry Lorem Ipsum has been.</p>
+                </div>
+                <div class="col-md-4 text-center"><img class="img-fluid feature-img wow flipInY" src="img/feature2.png">
+                	<h4>Feature number 2</h4>
+                	<p>Lorem Ipsum is simply dummy text the printing and typeseing industry Lorem Ipsum has been.</p>
+                </div>
+                <div class="col-md-4 text-center"><img class="img-fluid feature-img wow flipInY" src="img/feature3.png">
+                	<h4>Feature number 3</h4>
+                	<p>Lorem Ipsum is simply dummy text the printing and typeseing industry Lorem Ipsum has been.</p>
+                </div>
+
+                
             </div>
+            <div class="row mt-5">
+            	<div class="col-md-6"><img class="img-fluid" src="img/screen2.png"></div>
+            	<div class="col-md-6 pl-4">
+            		<h3 class="mb-5 mt-5"><b>FEATURES</b></h3>
+            		<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</p>
+
+<p>No sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr </p>
+					<a class="mt-4 link wow shake" href="#">ORDER NOW!</a>
+            	</div>
+            </div>
+
         </div>
     </section>
     <!-- /Features -->
@@ -247,6 +272,10 @@
                 </div>
             </div>
         </div>
+        <a class="js-scroll-trigger" href="#home" id="myBtn" title="Go to top">&#11165;</a>
+
+	    
+        
     </footer>
 
     <section class="copyright">
@@ -260,7 +289,10 @@
     </section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
@@ -318,6 +350,46 @@
 
     });
     </script>
+    <script type="text/javascript">
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a.js-scroll-trigger").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+    </script>
+    <script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+
+</script>
 </body>
 
 </html>
