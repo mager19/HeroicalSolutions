@@ -7,6 +7,11 @@ header{
 	background: linear-gradient(230.69deg, #07B2F4 2.61%, #2C75B4 100%) 
 }
 
+.logo img{
+	width: 50%;
+	
+}
+
 /*********** Trial *************/
 .trial{
 	background-color: #ccc;
