@@ -5,7 +5,12 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-h1,h2,h3{letter-spacing: 0.1em;}
+
+h1,
+h2,
+h3 {
+    letter-spacing: 0.1em;
+}
 
 h2 {
     font-size: 3.5em;
@@ -19,6 +24,7 @@ a {
 .contenedor {
     padding: 5em 0;
 }
+
 
 
 /*********** header *************/
@@ -105,6 +111,7 @@ header nav ul li:hover {
 }
 
 
+
 /*********** Trial *************/
 
 .trial {
@@ -146,6 +153,7 @@ header nav ul li:hover {
 
 
 
+
 /*********** Features *************/
 
 .features {
@@ -158,21 +166,25 @@ header nav ul li:hover {
     text-align: center;
     margin-bottom: 1em;
 }
-.features h3{
-	    color: #11A1E2;
+
+.features h3 {
+    color: #11A1E2;
     font-weight: 600;
     margin-bottom: 20px;
 }
-.features h4{
-	    color: #11A1E2;
+
+.features h4 {
+    color: #11A1E2;
     font-weight: 600;
     margin-bottom: 20px;
 }
-.features img.feature-img{
-	    margin-bottom: 25px;
-	    width: 165px;
+
+.features img.feature-img {
+    margin-bottom: 25px;
+    width: 165px;
 }
-.features .link{
+
+.features .link {
     background: #2386C6;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     padding: 15px 30px;
@@ -185,6 +197,7 @@ header nav ul li:hover {
     font-weight: 600;
     font-size: 1.1em;
 }
+
 
 /*********** View *************/
 
@@ -204,6 +217,7 @@ header nav ul li:hover {
 .view ul#lightSlider li {
     text-align: center;
 }
+
 
 
 /*********** FAQs *************/
@@ -326,6 +340,7 @@ header nav ul li:hover {
 }
 
 
+
 /*********** Pricing ************/
 
 .pricing {
@@ -406,6 +421,7 @@ header nav ul li:hover {
 }
 
 
+
 /*********** Footer *************/
 
 footer {
@@ -434,6 +450,7 @@ footer .logo__footer img {
 }
 
 
+
 /*********copy**********/
 
 .copyright {
@@ -446,4 +463,28 @@ footer .logo__footer img {
     font-size: 0.9em;
     font-weight: 800;
     padding-top: 0.5em;
+}
+
+
+/***************** to top ***************************/
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #3a3a3a;
+    color: white;
+    cursor: pointer;
+    padding: 6px 12px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+#myBtn:hover {
+    background-color: #555;
 }
