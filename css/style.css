@@ -98,7 +98,40 @@ header nav ul li:hover{
 
 /*********** Trial *************/
 .trial{
-	background-color: #ccc;
+	background-color: #F9F9F9;
+	padding: 2em 0;
+	text-align: center;
+}
+
+.trial h3{
+	font-weight: 600;
+}
+
+.trial form{
+	padding:1em 0;
+}
+
+.trial form input{
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border:none;
+	padding: 1em;
+	margin-right: 2em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	width: 35%;
+}
+
+.trial button{
+	background: #2386C6;
+	border:none;
+	font-size: 1.1em;
+	padding: 1em 4em;
+	color:#fff;
+}
+
+.trial h4{
+	color: #999999;
+	font-size: 1em;
 }
 
 
