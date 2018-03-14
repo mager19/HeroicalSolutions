@@ -16,12 +16,84 @@ h2{
 
 /*********** header *************/
 header{
-	background: linear-gradient(230.69deg, #07B2F4 2.61%, #2C75B4 100%) 
+	background: linear-gradient(230.69deg, #07B2F4 2.61%, #2C75B4 100%);
+	padding: 2em 0 4em 0; 
+}
+
+header p{
+	color:#fff;
+	text-align: center;
 }
 
 .logo img{
-	width: 50%;
-	
+	width: 25%;	
+}
+
+header nav ul{
+	text-align: right;
+}
+
+header nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin-right: 1em;
+
+	--webkit-transition: 0.2s all linear;
+	-o-transition: 0.2s all linear;
+	transition: 0.2s all linear;
+}
+
+header nav ul li a{
+	color:#fff;
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+header nav ul li:hover a{
+	color:#fff;
+	text-decoration: none;
+}
+
+header nav ul li:hover{
+	border-bottom: 2px solid #fff;
+	padding-bottom: 0.5em;
+}
+
+.button__menu{
+	background-color: #fff;
+	padding: 0.5em 1em;
+
+	--webkit-transition: 0.2s all linear;
+	-o-transition: 0.2s all linear;
+	transition: 0.2s all linear;
+}
+
+.button__menu:hover{
+	border:none!important;
+	background-color: #2189C9;
+}
+
+.button__menu:hover a{
+	color:#fff;
+}
+
+.button__menu a{
+	color:#2189C9;
+}
+
+.logo--central img{
+	margin-top: 2em;
+	margin-left: 15%;
+	width: 70%;
+}
+
+.header__video{
+	text-align: center;
+	margin-top: 2em;
+}
+
+.header__video video{
+	width: 100%;
 }
 
 /*********** Trial *************/
