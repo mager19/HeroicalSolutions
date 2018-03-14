@@ -330,5 +330,39 @@ border-radius: 5px;
 footer{
 	background-color: #333;
 	color:#fff;
+	padding: 2em 0;
 }
+
+footer .logo__footer{
+	text-align: center;
+}
+
+footer .logo__footer img{
+	width: 70%;
+}
+
+.footer__social{
+	text-align: center;
+	margin-top: 1em;
+}
+
+.footer__social ul li{
+	display: inline-block;
+	list-style: none;
+	margin-right: 1em;
+}
+
+/*********copy**********/
+.copyright{
+	background-color: #fff;
+	color:#333;
+	text-align: center;
+}
+
+.copyright h3{
+	font-size: 0.9em;
+	font-weight: 800;
+	padding-top: 0.5em;
+}
+
 
