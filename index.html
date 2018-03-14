@@ -18,8 +18,47 @@
         <div class="container">
             <div class="row">
                 <div class="col-3">
-                    <img src="img/hand.png" alt="">
+                    <div class="logo">
+                    	<img src="img/hand.png" alt="">
+                    </div>
                 </div>
+                <div class="col-9">
+                	<nav>
+                		<ul>
+                			<li><a href="#">HOME</a></li>
+                			<li><a href="#">FEATURES</a></li>
+                			<li><a href="#">PRICING</a></li>
+                			<li><a href="#">FAQS</a></li>
+                			<li class="button__menu"><a href="#">ORDER NOW</a></li>
+                		</ul>
+                	</nav>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+            	<div class="col-4">
+            		<div class="logo--central">
+            			<img src="img/logo.png" alt="">
+            		</div>
+            	</div>            	
+            </div>
+            <div class="row justify-content-center">
+            	<div class="col-6">
+            		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam architecto ex placeat maxime ab ratione, labore animi magni doloribus laboriosam soluta corrupti corporis hic modi doloremque mollitia, esse perferendis perspiciatis.</p>
+            	</div>
+            </div>
+            <div class="row">
+            	<div class="col-12">
+            		<div class="header__video">
+						<video src="img/video.mp4" id="video" poster="img/cover.png">
+							Sorry, your browser doesn't support embedded videos, 
+							but don't worry, you can <a href="videofile.webm">download it</a>
+							and watch it with your favorite video player!
+						</video>
+
+						
+            			<!-- <img src="img/cover.png" alt=""> -->
+            		</div>
+            	</div>
             </div>
         </div>
     </header>
@@ -103,26 +142,29 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
-<script type="text/javascript">
-	$('#lightSlider').lightSlider({
-    
-    item: 1,
-    loop:true,
-    slideMove: 1,
-    slideMargin: 0,
-    thumbItem: 9,
-    mode: "slide",
-        useCSS: true,
-        cssEasing: 'ease', //'cubic-bezier(0.25, 0, 0.25, 1)',//
-        easing: 'linear', //'for jquery animation',////
- 
-        speed: 400, //ms'
-        auto: false,
-        loop: false,
-        slideEndAnimation: true,
-        pause: 2000,
-});
-</script>
+	<script type="text/javascript">
+		$('#lightSlider').lightSlider({
+	    
+		    item: 1,
+		    loop:true,
+		    slideMove: 1,
+		    slideMargin: 0,
+		    thumbItem: 9,
+		    mode: "slide",
+		        useCSS: true,
+		        cssEasing: 'ease', //'cubic-bezier(0.25, 0, 0.25, 1)',//
+		        easing: 'linear', //'for jquery animation',////
+		 
+		        speed: 400, //ms'
+		        auto: false,
+		        loop: false,
+		        slideEndAnimation: true,
+		        pause: 2000,
+		});
+		$('#video').click(function(){
+		   document.getElementById('video').play();
+		});
+	</script>
 
 </body>
 
