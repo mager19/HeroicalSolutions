@@ -10,6 +10,7 @@ h2{
 	font-weight: bold;
 }
 
+a{color: #2C75B4;}
 .contenedor{
 	padding: 5em 0;
 }
@@ -263,6 +264,67 @@ margin-bottom: 20px;
 }
 .faqs #accordion .panel-collapse.show{
 	background-color: #F5F5F5;
+}
+
+/*********** Pricing ************/
+.pricing{
+	padding: 7.5em 0;
+	background-color: #F9F9F9;
+}
+.pricing  h2{color: #2386C6; text-align: center;margin-bottom: 1em;}
+.pricing .premium-plan{
+	background-color: #2C75B4;
+	    color: #fff;
+}
+.pricing .card{
+
+border: 1px solid #DCDCDC;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+}
+.pricing .card img{
+	padding: 10px 0 5px;
+	    width: 100px;
+}
+.pricing .card p{
+	    border-bottom: 1px solid #CCCCCC;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.pricing .card p:last-child{
+	border-bottom: none;
+}
+.pricing .card h5.price{
+	    color: #2C75B4;
+    font-size: 3.5em;
+    padding: 5px;
+        margin-bottom: 20px;
+}
+.pricing .premium-plan h5.price{
+	color: #fff;
+}
+.pricing .card a.card-link{
+	border: 1px solid #2C75B4;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    padding: 10px 30px;
+    display: inline-block;
+    transition:  .2s;
+}
+.pricing .card a.card-link:hover{
+	font-weight: 600;
+    font-size: 1.1em;
+}
+.pricing .premium-plan a.card-link{
+	background-color: #fff;
+}
+.pricing .card{
+	transition: transform .2s;
+}
+.pricing .card:hover{
+	transform: scale(1.1);
 }
 /*********** Footer *************/
 footer{
