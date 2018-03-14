@@ -1,3 +1,15 @@
+/****************** Fuente ***************/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+	
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+	font-size: 4.5em;
+	font-weight: bold;
+}
+
 .contenedor{
 	padding: 5em 0;
 }
@@ -21,9 +33,18 @@ header{
 
 /*********** View *************/
 .view{
-	background-color: #fff
+	padding: 7.5em 0;
+	background-color: #fff;
+	background:url(../img/bg-quick-view.jpg);
+	background-size: cover;
+}
+.view h2{
+	color: #fff;
+	text-align: center;
+	margin-bottom: 1em;
 }
 
+.view ul#lightSlider li{text-align: center;}
 
 /*********** FAQs *************/
 .faqs{
