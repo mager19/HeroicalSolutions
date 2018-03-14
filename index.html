@@ -8,7 +8,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
+
     <title>Heroical Solutions</title>
 </head>
 
@@ -19,25 +21,26 @@
             <div class="row">
                 <div class="col-3">
                     <div class="logo">
-                    	<img class="" src="img/hand.png" alt="">
+                    	<img class="wow zoomInDown" src="img/hand.png" alt="">
                     </div>
                 </div>
                 <div class="col-9">
                 	<nav>
                 		<ul>
-                			<li><a href="#">HOME</a></li>
-                			<li><a href="#">FEATURES</a></li>
-                			<li><a href="#">PRICING</a></li>
-                			<li><a href="#">FAQS</a></li>
+                			<li><a class="nav-link js-scroll-trigger" href="#">HOME</a></li>
+                			<li><a class="nav-link js-scroll-trigger" href="#features">FEATURES</a></li>
+                			<li><a class="nav-link js-scroll-trigger" href="#pricing">PRICING</a></li>
+                			<li><a class="nav-link js-scroll-trigger" href="#faqs">FAQS</a></li>
                 			<li class="button__menu"><a href="#">ORDER NOW</a></li>
                 		</ul>
                 	</nav>
+                	
                 </div>
             </div>
             <div class="row justify-content-center">
             	<div class="col-4">
             		<div class="logo--central">
-            			<img src="img/logo.png" alt="">
+            			<img class="wow bounce" src="img/logo.png" alt="">
             		</div>
             	</div>            	
             </div>
@@ -75,11 +78,11 @@
     </section>
     <!-- /Free trial -->
     <!-- Features -->
-    <section class="features">
+    <section id="features" class="features">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2>features</h2>
+                    <h2>FEATURES</h2>
                 </div>
             </div>
         </div>
@@ -106,10 +109,10 @@
     </section>
     <!-- /QuickView -->
     <!-- Faqs -->
-    <section class="faqs">
+    <section id="faqs" class="faqs">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 wow bounceIn">
                     <h2>FAQ's</h2>
                     <div class="row">
                     <div class="col-md-7">
@@ -174,7 +177,7 @@
     </section>
     <!-- /Faqs -->
     <!-- Pricing -->
-    <section class="pricing">
+    <section id="pricing" class="pricing">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -198,7 +201,12 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+     <script src="js/wow.min.js" ></script>
+     <script>
+              new WOW().init();
+    </script>
 	<script type="text/javascript">
 		$('#lightSlider').lightSlider({
 	    
